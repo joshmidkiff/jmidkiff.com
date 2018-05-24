@@ -4,3 +4,9 @@
 
 [context.deploy-preview]
   command = "npm run build-preview"
+
+[[redirects]]
+  from = "http://jmidkiff.com/*"
+  to = "https://jmidkiff.com/:splat"
+  status = 301
+  force = true
